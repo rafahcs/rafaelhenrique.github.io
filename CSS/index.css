@@ -44,18 +44,3 @@ span {
     vertical-align: middle; /*vertical-align = alinhamento vertical*/
 }
 
-#button {
-    display: inline-block; /* em toda tag <a>*/ /*É preciso mudar para inline-block. Assim, a largura e altura podem ser editadas */
-    background-color: #F25A70;
-    line-height: 60px; /*Sempre mesmo tamanho da linha. Serve para apenas 1 linha*/
-    height: 60px; /*height= altura*/
-    padding: 20px 18px; /*20px 18px 20px 18px*/
-    box-shadow: 5px 5px 0 black;/*sombreia o button. Estrutura: eixoX eixoY burn color */
-    transition: transform 100ms linear; /*animação de button*/
-    margin-right: 0px;
-}
-/* 'hover' implementa interação de cursor do mouse*/
-#buton:hover { /*é uma pseudoclasse*/
-    transform: scale(1.08);
-    opacity: 0.5;
-}
