@@ -1,0 +1,72 @@
+
+<!--
+nav(navigation)-> menu do site
+a(anchor)->integra o que está no menu com cada página do site
+href ="" -> caminho que liga navigation até anchor
+img(imagem)-> coloca uma imagem
+src(source)-> endereço de busca da imagem no em diretório local
+-->
+<!--head coloca um cabeçalho para o usuário. Não é visível aparentemente para o dev-->
+<!--title é o título da aba de navegador-->
+<!--a tag de fechamento em img é facultativa, pois o fechamento é só quando precisa de um fim no caminho. A imagem não leva a caminho nenhum.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+    
+    <head>
+        <title>Rafael Henrique</title>
+        <!--suporte de carcteres a qualquer idioma-->
+        <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/Components/banner.css">
+        <link rel="stylesheet" href="CSS/Components/title.css">
+        <link rel="stylesheet" href="CSS/Components/button.css">
+        <link rel="stylesheet" href="CSS/Components/subtitle.css">
+        <link rel="stylesheet" href="CSS/Components/box.css">
+        <link rel="stylesheet" href="CSS/Components/action.css">
+        <link rel="stylesheet" href="CSS/Components/header.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <img src="assets/images/logoRAFAEL.png" >  <!--criar um logo pessoal-->
+            
+            <nav>
+                <a class="action" href="" lang="en" >Skills</a>        
+                <a class="action" href="" >Projetos</a>
+                <a class="action" href="" >Sobre</a>
+                <a class="action" href="" >Contatos</a>
+                <a class="button" href="" lang="en" >Download CV</a>
+            </nav>    
+        </header>
+            <!--<em></em> dá ênfase a um termo no leitor de tela-->
+        
+        <section class="banner">
+            <div class="wrapper">
+                
+                <div class="box">
+                    <!--heading(Título)-->    
+                    <h1 class="title">Rafael Henrique</h1>
+        
+                    <h2 class="subtitle">Full Stack Developer</h2>
+                </div>
+
+                <div class="navigation">
+                    <a class="button" href="" >Contatos</a>
+                    <a class="button" href="" lang="en" >Download CV</a>
+                </div>
+                
+            </div>
+        </section>
+        
+        
+        <!--paragraph-->
+        <p>Olá sou Rafael, mas popularmente conhecido como Rafa. Sou estudante de Ciência da Computação no CEFET-RJ. Gosto muito de tecnologia. Sou apaixonado por video games. Estou estudando para me tornar desenvolvedor full stack. Já tive contato com as linguagens de programação C,  Java, Python e JavaScript. Agora estou aprendendo HTML e CSS.
+        </p>
+    </body>
+
+</html>
