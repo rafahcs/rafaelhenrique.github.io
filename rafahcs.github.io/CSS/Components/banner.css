@@ -1,0 +1,25 @@
+.banner{
+    background-image: url(../../assets/images/WIN_20240624_16_14_29_Pro\ 1.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: solid 10px #000 ;
+    box-sizing: border-box;
+}
+
+.banner .wrapper{
+    display: flex;
+    flex-direction: column; 
+    width: 630px;
+    padding-left: 90px;
+    padding-top: 115px;
+}
+
+.banner .box{
+    margin-bottom: 40px;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+}
