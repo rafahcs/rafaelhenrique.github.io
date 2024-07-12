@@ -1,4 +1,4 @@
-.header {
+.header-menu {
     display: flex;
     justify-content: space-between;
     background-color: #EEF315;
@@ -6,7 +6,7 @@
     padding: 10px 20px;
 }
 
-.header img{
+.header-menu img{
     height: 90px;
     width: 90px;
 }

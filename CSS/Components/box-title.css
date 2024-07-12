@@ -1,4 +1,4 @@
-.box{
+.box-title{
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0 #000;
@@ -10,7 +10,7 @@
 /*#seletor_de_id tag_dentro_do_id{
     }*/
 
-.box .title{
+.box-title .title{
     margin-bottom: 40px;
 }    
 

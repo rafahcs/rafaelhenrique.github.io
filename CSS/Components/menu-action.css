@@ -1,4 +1,4 @@
-.action {
+.menu-action {
     align-items: center;
     display: inline-flex;
     color: black; 
@@ -9,7 +9,7 @@
     margin-right: 30px; /*margem*/
 }
 /*O '#' representa um aributo id de tag*/
-.action::before{ /*pseudoclasse*/
+.menu-action::before{ /*pseudoclasse*/
     content: " ";
     background-color: #F25A70;
     width: 10px;

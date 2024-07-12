@@ -11,10 +11,14 @@
     text-shadow: none;
 }
 
-.main-title.-html{
+.main-title.-tech{
     display: flex;
     color: #fff;
     font-size: 25px;
     margin-top: 10px;
+    text-shadow: none;
+}
+
+.main-title.-second.-third{
     text-shadow: none;
 }

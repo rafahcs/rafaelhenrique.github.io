@@ -1,4 +1,4 @@
-.banner{
+.initial-page{
     background-image: url(../../assets/images/WIN_20240624_16_14_29_Pro\ 1.png);
     height: 800px;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.banner .wrapper{
+.initial-page .wrapper{
     display: flex;
     flex-direction: column; 
     width: 630px;
@@ -15,19 +15,32 @@
     padding-top: 115px;
 }
 
-.banner .box{
+.initial-page .box{
     margin-bottom: 40px;
 }
 
-.banner .navigation{
+.initial-page .navigation{
     display: flex;
     justify-content: space-around;
 }
 
-.banner.-second{
+.initial-page.-second{
     padding-top: 44px;
     background-image: none;
     background-color: #eef315;
     border-bottom: solid 10px #F25A70;
-    height: 700px;
+    height: 724px;
+}
+
+.initial-page .title{
+    margin-bottom: 60px;
+}
+
+.initial-page.-third{
+    background-image: none;
+    background-color: #000;
+    height: 520px;
+    padding: 33px;
+    border-bottom: solid 10px #eef315;
+    box-sizing: border-box;
 }
