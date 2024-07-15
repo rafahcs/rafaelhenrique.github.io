@@ -58,3 +58,14 @@ Estrutura CSS:
     //propriedades herdadas de tag + propriedades sobrescritas por tag2
 
 }
+
+#PSEUDOCLASSE: é criada para definir um mesmo padrão para mais de um elemento. Estrutura abaixo
+/*
+nome classe:nth-child( ordem_de_elemento ){
+
+}
+
+nth -> enésimo filho(elemento)
+ordem_de_elemento -> odd(ímpares) / even(pares)
+
+*/

@@ -48,3 +48,11 @@
     </header>  
 
 #site para validar html: https://validator.w3.org/
+
+#Pesquisar padrão RSCSS
+<dl> <!--description list-->
+
+<dt></dt> <!--description tile-->
+<dd></dd> <!--description define-->
+
+</dl>
