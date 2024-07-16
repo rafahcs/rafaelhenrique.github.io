@@ -1,0 +1,12 @@
+body, .main-title, .subtitle-box {
+    margin: 0; 
+}
+
+body{
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}
+
+.button-action {
+    border: none;
+    font-family: inherit;
+}
