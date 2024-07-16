@@ -44,3 +44,10 @@
     border-bottom: solid 10px #eef315;
     box-sizing: border-box;
 }
+
+.initial-page.-fourth{
+    background-image: none;
+    background-color: #7C5E99;
+    height: 783px;
+    border-bottom: solid 10px #000
+}
